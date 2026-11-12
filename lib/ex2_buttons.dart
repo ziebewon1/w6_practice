@@ -19,6 +19,9 @@ void main() {
     MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Custom Buttons'),
+        ),
         body: Padding(
             padding: const EdgeInsets.all(20.0),
             child: Column(
@@ -93,7 +96,7 @@ class CustomButton extends StatelessWidget {
               ),
     
            if(iconPosition == IconsPosition.right)
-              Icon(icon, color: Colors.grey),
+              Icon(icon, color: Colors.blueGrey),
           ],
         )
       ),

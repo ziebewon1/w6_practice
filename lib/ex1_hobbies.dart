@@ -9,6 +9,9 @@ void main() {
     MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        appBar: AppBar(
+          title: const Text('My Hobbies'),
+        ),
         body: Padding(
             padding: const EdgeInsets.all(20.0),
             child: Column(
